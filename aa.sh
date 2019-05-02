@@ -2,7 +2,8 @@
 echo "____________________________________\n";
     echo "1). Microsoft Checker";
     echo "2). paypal Checker Email. Valid";
-    echo "Note : Ini Manual Ajg, Otw Yg Starbuks( Chat Gua Aja Anjeng )";
+    echo "3). Starbuks ( Chat Gua Aja Anjeng )";
+    echo "Note : Ini Manual Ajg Otw";
     echo "____________________________________";
     echo "<---- Mau Yang Mana Njeng? ---->\n";
     read -p "--# " star; 
