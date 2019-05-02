@@ -1,0 +1,13 @@
+import random, os
+
+os.system("clear")
+def Space(j):
+	i = 0
+	while i<=j:
+		print " ",
+		i+=1
+Space(5); print "\033[97m####################################"
+Space(5); print "\033[97m|\033[95m*** checker tools ***"
+Space(5); print "\033[97m|\033[96mAuthor : \033[94mr00t@star"
+Space(5); print "\033[97m|\033[97m\033[93mShootz : \033[98mAll Programer Indonesia\033[00m"
+Space(5); print "|\033[97m#####################################\033[00m"
