@@ -1,11 +1,11 @@
  
 
-$gre="\e[92m";
-$Yell="\e[93m";
-$Bir="\e[94m";
-$Ter="\e[95m";
-$Norm="\e[00m";
-$Mer="\e[91m";
+$gre ="\e[92m";
+$Yell ="\e[93m";
+$Bir ="\e[94m";
+$Ter ="\e[95m";
+$Norm ="\e[00m";
+$Mer ="\e[91m";
 
 echo "____________________________________\n";
     echo $Mer"1).$gre Microsoft Checker";
