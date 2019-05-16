@@ -1,11 +1,11 @@
  
 
-$gre="\033[92m";
-$Yell="\033[93m";
-$Bir="\033[94m";
-$Ter="\033[95m";
-$Norm="\033[00m";
-$Mer="\033[91m";
+$gre="\e[92m";
+$Yell="\e[93m";
+$Bir="\e[94m";
+$Ter="\e[95m";
+$Norm="\e[00m";
+$Mer="\e[91m";
 
 echo "____________________________________\n";
     echo $Mer"1).$gre Microsoft Checker";
@@ -13,6 +13,7 @@ echo "____________________________________\n";
     echo $Mer"3).$gre Bin Checker Script";
     echo $Mer"4).$gre Yahoo Checker";
     echo $Mer"5).$gre Tools Online kid ( To defacer )";
+    echo $Mer"6).$gre Yahoo Cloning( Versi Old :v )";
     echo "$Mer Buatan$Yell r00t@star$Norm |$Ter Sunda Cyber Army";
     echo $Ter"Note :$gre Ini masih manual ya gan :)";
     echo $Norm"____________________________________";
@@ -46,4 +47,9 @@ sleep
 echo "Di salin ya Guys :b ";
 echo "-->$gre https://scblackhat77.ga ";
 echo "\033[00m noh njeng linkna";
+fi
+if [ $star = 6 ] || [ $star = 6 ]
+then
+sleep2
+python2 cloning.py
 fi
