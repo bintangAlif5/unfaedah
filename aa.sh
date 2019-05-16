@@ -10,7 +10,7 @@ $Mer="\033[91m";
 echo "____________________________________\n";
     echo $Mer"1).$gre Microsoft Checker";
     echo $Mer"2).$gre paypal Checker Email. Valid";
-    echo $Mer"3).$gre Bin Checker Script ( Chat Gua Aja Anjeng )";
+    echo $Mer"3).$gre Bin Checker Script";
     echo $Mer"4).$gre Yahoo Checker";
     echo $Mer"5).$gre Tools Online kid ( To defacer )";
     echo "$Mer Buatan$Yell r00t@star$Norm |$Ter Sunda Cyber Army";
