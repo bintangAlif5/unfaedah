@@ -1,11 +1,12 @@
- 
+ #!/bin/bash
 
-$gre ="\e[92m";
-$Yell ="\e[93m";
-$Bir ="\e[94m";
-$Ter ="\e[95m";
-$Norm ="\e[00m";
-$Mer ="\e[91m";
+Yell="\033[33;1m"; # Yellow light
+gre="\033[32;1m"; # Green light
+Mer="\033[31;1m"; # Red light
+Norm="\033[00m"; # White light
+Ter="\033[95m"; # Purple Light
+CL="\033[36;1m"; # Cyan Light
+Bir="\033[96;1m"; # Blue Aqua
 
 echo "____________________________________\n";
     echo $Mer"1).$gre Microsoft Checker";
