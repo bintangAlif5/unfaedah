@@ -22,11 +22,11 @@ star = """
 """
 print ""
 print star 
-print "\033[93mMau Manual apa kgaa?\n 1). Ya\n 2). Tidak"
+print "\033[93mMau Auto apa kgaa?\n 1). Ya\n 2). Tidak"
 putput = raw_input("input --> \033[95m")
-if putput == 1:
+if putput == "1":
    gudd = raw_input("Masukan Nama Wordlistnya : ")
-   aerr = open("+gudd", "r")
+   aerr = open("%s", "r")%(gudd)
    ct = aerr.read().splitlines() 
    r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email="+ct)
    print green+"[!] "+blue+"Account : "+red, r.json()["email"]
