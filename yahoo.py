@@ -18,7 +18,7 @@ star = """
 # \033[91mDate : \033[96m17 - 05 - 2019\033[93m        
 # \033[91mfacebook : \033[96mhttps://www.facebook.com/BintangAlifff\033[93m 
 # \033[91mInstaGram : \033[96m@bintang_alif16\033[93m
-# \033[91mNote : \033[96mJika error silahkan hubungi saya, jika ingin Auto Bikin wordlist baru\033[93m
+# \033[91mNote : \033[96mJika error silahkan hubungi saya\n\033[93m# \033[96mjika ingin Auto Masukan akun - akun lu di yahoo.txt\033[93m
 #############################################
 """
 print ""
