@@ -1,6 +1,6 @@
 # unfaedah
 - Hae kntl
-- tools buat maleng online awoakWoak
+- tools Unfaedah ea babyk, liat isina dolo jangan protes bae asu
 # to install
 ```
 $ apt update && apt upgrade -y
