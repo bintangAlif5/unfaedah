@@ -26,17 +26,21 @@ print "\033[93mMau Manual apa kgaa?\n 1). Ya\n 2). Tidak"
 putput = raw_input("input --> \033[95m")
 if putput == 1:
    gudd = raw_input("Masukan Nama Wordlistnya : ")
-   aerr = open("+gudd, "r")
+   aerr = open("+gudd", "r")
    ct = aerr.read().splitlines() 
    r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email="+ct)
    print green+"[!] "+blue+"Account : "+red, r.json()["email"]
    print green+"[!] "+blue+"Status  : "+red, r.json()["status"]
    else:
          print "\033[00m[\033[91m!\033[00m] \033[92m Invalid Selection \033[00m[\033[91m!\033[00m]"
+         sys.exit()
 if putput == 2:
    print "\033[91mOkei Manual zuahaha"
    mal = raw_input("Masukan Emailna: ")
    r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email="+mal)
    print green+"[!] "+blue+"Account : "+red, r.json()["email"]
    print green+"[!] "+blue+"Status  : "+red, r.json()["status"]
+   else:
+        print "\033[00m[\033[91m!\033[00m] \033[92m Invalid Selection \033[00m[\033[91m!\033[00m]"
+        sys.exit()
 	
