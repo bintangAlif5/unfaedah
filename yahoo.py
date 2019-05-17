@@ -29,8 +29,8 @@ if putput == "1":
    print "Masukan Akun - akun yahoo mu ke txt yg tersedia"
    time.sleep(4)
    aerr = open("yahoo.txt", "r")
-   ct = aerr.read().splitlines() 
-   r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email="+ct)
+   ct = aerr.read()
+   r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email=%s"%(ct)
    print green+"[!] "+blue+"Account : "+red, r.json()["email"]
    print green+"[!] "+blue+"Status  : "+red, r.json()["status"]
    
