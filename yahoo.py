@@ -32,16 +32,11 @@ if putput == "1":
    r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email="+ct)
    print green+"[!] "+blue+"Account : "+red, r.json()["email"]
    print green+"[!] "+blue+"Status  : "+red, r.json()["status"]
-   else:
-         print "\033[00m[\033[91m!\033[00m] \033[92m Invalid Selection \033[00m[\033[91m!\033[00m]"
-         sys.exit()
-if putput == 2:
+   
+if putput == "2":
    print "\033[91mOkei Manual zuahaha"
    mal = raw_input("Masukan Emailna: ")
    r = requests.get("http://widhitools.000webhostapp.com/api/yahoo.php?email="+mal)
    print green+"[!] "+blue+"Account : "+red, r.json()["email"]
    print green+"[!] "+blue+"Status  : "+red, r.json()["status"]
-   else:
-        print "\033[00m[\033[91m!\033[00m] \033[92m Invalid Selection \033[00m[\033[91m!\033[00m]"
-        sys.exit()
-	
+   
