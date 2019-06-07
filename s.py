@@ -3,7 +3,7 @@
 from urllib.request import urlopen, Request, URLError, HTTPError
 import sys
 import time, random
-def mengetik(s):
+def Y(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
