@@ -30,7 +30,7 @@ Y("\033[98mdefault Wordlist: word.txt")
 Y("\033[91mAnda Bisa Membuat wordlist Baru h3h3")
 print ("___________________________________________")
 sw = input("Nama wordlist lu gayn :\033[96m ")
-header = {'user-agent': 'Mozilla/5.0 (Windows NT 5.0; rv:14.0) Gecko/20100101 Firefox/14.0.1'}
+header = {'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; CPH1701) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.112 Mobile Safari/537.36'}
 file = open(sw, 'r').read().split('\n')
 site = input('\033[95mMasukan Link: ')
 p3ng("\033[94mMencari Admin Login...\033[0m")
