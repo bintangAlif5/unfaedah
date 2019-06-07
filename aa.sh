@@ -15,6 +15,7 @@ echo "____________________________________\n";
     echo $Mer"4).$gre Yahoo Checker";
     echo $Mer"5).$gre Tools Online kid ( To defacer )";
     echo $Mer"6).$gre Yahoo Cloning( Versi Old :v )";
+    echo $Mer"7).$gre Admin finder cuk";
     echo "$Mer Buatan$Yell r00t@star$Norm |$Ter Sunda Cyber Army";
     echo $Ter"Note :$gre Ini masih manual ya gan :)";
     echo $Norm"____________________________________";
@@ -53,4 +54,9 @@ if [ $star = 6 ] || [ $star = 6 ]
 then
 sleep2
 python2 cloning.py
+fi
+if [ $star = 7 ] || [ $star = 7 ]
+then
+sleep2
+python s.py
 fi
